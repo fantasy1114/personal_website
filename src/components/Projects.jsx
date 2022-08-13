@@ -1,6 +1,5 @@
 import { useState, React } from "react";
 import { Zoom, Fade } from "react-awesome-reveal";
-import dsc from "../media/DSC.png";
 import fla from "../media/FLA.png";
 import web3 from "../media/WEB3.png";
 import efe from "../media/EFE.png";
@@ -28,7 +27,7 @@ const Experience = ({ darkMode }) => {
         <Container>
           <br></br>
           <h2 className="lead" align="center">
-            <b>- Experience -</b>
+            <b>- Projects -</b>
           </h2>
           <br></br>
           <Zoom>
