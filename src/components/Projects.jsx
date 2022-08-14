@@ -14,7 +14,7 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Card from "react-bootstrap/esm/Card";
 
-const Experience = ({ darkMode }) => {
+const Projects = ({ darkMode }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -575,4 +575,4 @@ const Experience = ({ darkMode }) => {
   );
 };
 
-export default Experience;
+export default Projects;

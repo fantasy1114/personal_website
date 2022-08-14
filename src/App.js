@@ -9,9 +9,11 @@ import {
   Experience,
   Contact,
   Footer,
+  Loader,
   Projects,
 } from "./components";
-import { useState } from "react";
+
+import { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
@@ -22,70 +24,83 @@ import "./components/styles.css";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
+  const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    let timerloader = setTimeout(() => {
+      setLoading(false);
+    }, 2300);
+    return () => clearTimeout(timerloader);
+  }, [loading]);
   return (
-    <Router>
-      <div className="App" data-theme={darkMode ? "dark" : "light"}>
-        <Route path="/">
-          <Navbar
-            expand="lg"
-            className="navbar"
-            data-theme={darkMode ? "dark" : "light"}
-          >
-            <Navbar.Brand href="#home" className="navname">
-              Welcome!
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link href="#about" className="link">
-                  About me
-                </Nav.Link>
-                <Nav.Link href="#skills" className="link">
-                  Skills
-                </Nav.Link>
-                <Nav.Link href="#experience" className="link">
-                  Experience
-                </Nav.Link>
-                <Nav.Link href="#contact" className="link">
-                  Contact
-                </Nav.Link>
-              </Nav>
-              <Button
-                onClick={toggleDarkMode}
-                variant={darkMode ? "outline-light" : "outline-dark"}
+    <div>
+      {loading === false ? (
+        <Router>
+          <div className="App" data-theme={darkMode ? "dark" : "light"}>
+            <Route path="/">
+              <Navbar
+                expand="lg"
+                className="navbar"
+                data-theme={darkMode ? "dark" : "light"}
               >
-                {darkMode ? "Light Mode" : "Dark Mode"}{" "}
-                <FontAwesomeIcon
-                  className="dark"
-                  size="lg"
-                  icon={faAdjust}
-                  spin
-                />
-              </Button>
-            </Navbar.Collapse>
-          </Navbar>
-          <hr></hr>
-          <div id="home">
-            <Home darkMode={darkMode} />
+                <Navbar.Brand href="#home" className="navname">
+                  Welcome!
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="mr-auto">
+                    <Nav.Link href="#about" className="link">
+                      About me
+                    </Nav.Link>
+                    <Nav.Link href="#skills" className="link">
+                      Skills
+                    </Nav.Link>
+                    <Nav.Link href="#projects" className="link">
+                      Projects
+                    </Nav.Link>
+                    <Nav.Link href="#contact" className="link">
+                      Contact
+                    </Nav.Link>
+                  </Nav>
+                  <Button
+                    onClick={toggleDarkMode}
+                    variant={darkMode ? "outline-light" : "outline-dark"}
+                  >
+                    {darkMode ? "Light Mode" : "Dark Mode"}{" "}
+                    <FontAwesomeIcon
+                      className="dark"
+                      size="lg"
+                      icon={faAdjust}
+                      spin
+                    />
+                  </Button>
+                </Navbar.Collapse>
+              </Navbar>
+              <hr></hr>
+              <div id="home">
+                <Home darkMode={darkMode} />
+              </div>
+              <div id="about">
+                <About darkMode={darkMode} />
+              </div>
+              <div id="skills">
+                <Skills darkMode={darkMode} />
+              </div>
+              <div id="projects">
+                <Projects darkMode={darkMode} />
+              </div>
+              <div id="contact">
+                <Contact darkMode={darkMode} />
+              </div>
+              <Footer />
+            </Route>
+            <br></br>
           </div>
-          <div id="about">
-            <About darkMode={darkMode} />
-          </div>
-          <div id="skills">
-            <Skills darkMode={darkMode} />
-          </div>
-          <div id="projects">
-            <Projects darkMode={darkMode} />
-          </div>
-          <div id="contact">
-            <Contact darkMode={darkMode} />
-          </div>
-          <Footer />
-        </Route>
-        <br></br>
-      </div>
-    </Router>
+        </Router>
+      ) : (
+        <Loader />
+      )}
+    </div>
   );
 }
 
