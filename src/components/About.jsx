@@ -235,7 +235,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="https://join.skype.com/invite/wDpwy4t21eVg"
+                        href="https://join.skype.com/invite/ua262wXAd9xg"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
