@@ -2,7 +2,7 @@ import React from "react";
 import { AttentionSeeker } from "react-awesome-reveal";
 import helloLight from "../media/hello-light.png";
 import helloDark from "../media/hello-dark.png";
-import avatar from "../media/grin.jpg";
+import avatar from "../media/masculus-avatar.png";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/esm/Row";
 import Container from "react-bootstrap/esm/Container";
