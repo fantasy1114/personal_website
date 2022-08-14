@@ -101,21 +101,21 @@ const About = ({ darkMode }) => {
                       client satisfaction. I need an opportunity to prove my
                       skills. Just a talk and we can have a better understanding
                       and can work together for a long time. I have also working
-                      experience with Model View Controller (MVC) and have been
-                      involved in maintaining versions of source code using{" "}
-                      <strong>GIT</strong>. I have also designed and developed
-                      web user controls, pages, validation controls, CSS files
-                      using technologies like AJAX Toolkit, jQuery, JavaScript,
-                      Bootstrap UI controls, XML, HTML, and DHTML. Many things
-                      excite me in this expanse of technology. I am up for
-                      challenges that take me by surprise and make my head hurt.
-                      I'm comfortable working on any domain if I find the
-                      project is worth it. You can imagine me focused on the
-                      laptop screen and typing or taking down notes. Apart from
-                      technical things, I enjoy good books and verses, and I
-                      have a good eye for art.<br></br>
-                      Now that you know me a bit, please feel free to drop a
-                      text because{" "}
+                      experience with <strong>Model View Controller</strong>{" "}
+                      (MVC) and have been involved in maintaining versions of
+                      source code using <strong>GIT</strong>. I have also
+                      designed and developed web user controls, pages,
+                      validation controls, CSS files using technologies like
+                      AJAX Toolkit, jQuery, JavaScript, Bootstrap UI controls,
+                      XML, HTML, and DHTML. Many things excite me in this
+                      expanse of technology. I am up for challenges that take me
+                      by surprise and make my head hurt. I'm comfortable working
+                      on any domain if I find the project is worth it. You can
+                      imagine me focused on the laptop screen and typing or
+                      taking down notes. Apart from technical things, I enjoy
+                      good books and verses, and I have a good eye for{" "}
+                      <strong>Art</strong>. Now that you know me a bit, please
+                      feel free to drop a text because{" "}
                       <strong>Communication is a two-way street.</strong>
                     </p>
                   </Card.Text>
@@ -155,104 +155,121 @@ const About = ({ darkMode }) => {
                     <h2 className="lead">Let's Connect!</h2>
                   </Card.Title>
                   <br></br>
-
-                  <a
-                    href="https://github.com/KodaKDominus"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                      className="skills-btn"
-                    >
-                      <FontAwesomeIcon
-                        className="skill"
-                        size="2x"
-                        icon={faGithub}
-                      />
-                    </Button>
-                  </a>
-                  <a
-                    href="https://t.me/KDomnius"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                      className="skills-btn"
-                    >
-                      <FontAwesomeIcon
-                        className="skill"
-                        size="2x"
-                        icon={faTelegram}
-                      />
-                    </Button>
-                  </a>
-                  <a
-                    href="kodakatsuro@gmail.com"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                      className="skills-btn"
-                    >
-                      <FontAwesomeIcon
-                        className="skill"
-                        size="2x"
-                        icon={faSlack}
-                      />
-                    </Button>
-                  </a>
+                  <Row>
+                    <Col lg={1} xs={8}></Col>
+                    <Col lg={3} xs={8}>
+                      <a
+                        href="https://github.com/KodaKDominus"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <Button
+                          variant={darkMode ? "outline-light" : "outline-dark"}
+                          className="skills-btn"
+                        >
+                          <FontAwesomeIcon
+                            className="skill"
+                            size="2x"
+                            icon={faGithub}
+                          />
+                        </Button>
+                      </a>
+                    </Col>
+                    <Col lg={3} xs={8}>
+                      <a
+                        href="https://t.me/KDomnius"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <Button
+                          variant={darkMode ? "outline-light" : "outline-dark"}
+                          className="skills-btn"
+                        >
+                          <FontAwesomeIcon
+                            className="skill"
+                            size="2x"
+                            icon={faTelegram}
+                          />
+                        </Button>
+                      </a>
+                    </Col>
+                    <Col lg={3} xs={8}>
+                      <a
+                        href="kodakatsuro@gmail.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <Button
+                          variant={darkMode ? "outline-light" : "outline-dark"}
+                          className="skills-btn"
+                        >
+                          <FontAwesomeIcon
+                            className="skill"
+                            size="2x"
+                            icon={faSlack}
+                          />
+                        </Button>
+                      </a>
+                    </Col>
+                  </Row>
                   <br />
-                  <a
-                    href="kodakatsuro@gmail.com"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                      className="skills-btn"
-                    >
-                      <FontAwesomeIcon
-                        className="skill"
-                        size="2x"
-                        icon={faGoogle}
-                      />
-                    </Button>
-                  </a>
-                  <a
-                    href="https://join.skype.com/invite/wDpwy4t21eVg"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                      className="skills-btn"
-                    >
-                      <FontAwesomeIcon
-                        className="skill"
-                        size="2x"
-                        icon={faSkype}
-                      />
-                    </Button>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/KodaKDominus/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                      className="skills-btn"
-                    >
-                      <FontAwesomeIcon
-                        className="skill"
-                        size="2x"
-                        icon={faLinkedin}
-                      />
-                    </Button>
-                  </a>
+                  <Row>
+                    <Col lg={1} xs={8}></Col>
+                    <Col lg={3} xs={8}>
+                      <a
+                        href="kodakatsuro@gmail.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <Button
+                          variant={darkMode ? "outline-light" : "outline-dark"}
+                          className="skills-btn"
+                        >
+                          <FontAwesomeIcon
+                            className="skill"
+                            size="2x"
+                            icon={faGoogle}
+                          />
+                        </Button>
+                      </a>
+                    </Col>
+                    <Col lg={3} xs={8}>
+                      <a
+                        href="https://join.skype.com/invite/wDpwy4t21eVg"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <Button
+                          variant={darkMode ? "outline-light" : "outline-dark"}
+                          className="skills-btn"
+                        >
+                          <FontAwesomeIcon
+                            className="skill"
+                            size="2x"
+                            icon={faSkype}
+                          />
+                        </Button>
+                      </a>
+                    </Col>
+                    <Col lg={3} xs={8}>
+                      <a
+                        href="https://www.linkedin.com/in/KodaKDominus/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <Button
+                          variant={darkMode ? "outline-light" : "outline-dark"}
+                          className="skills-btn"
+                        >
+                          <FontAwesomeIcon
+                            className="skill"
+                            size="2x"
+                            icon={faLinkedin}
+                          />
+                        </Button>
+                      </a>
+                    </Col>
+                  </Row>
                   <img
                     src={darkMode ? connectDark : connectLight}
                     alt="connect"
