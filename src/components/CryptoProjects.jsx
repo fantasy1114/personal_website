@@ -1,21 +1,21 @@
 import { useState, React } from "react";
 import { Zoom, Fade } from "react-awesome-reveal";
-import fla from "../media/FLA.png";
-import efe from "../media/EFE.png";
-import ebe from "../media/EBE.png";
-import dlop from "../media/DLOP.png";
-import com from "../media/COM.png";
-import ca from "../media/CA.png";
-import job from "../media/JOB.png";
-import tcd from "../media/WAP.png";
-import adwe from "../media/ADWE.png";
+import botb from "../media/BOTB.png";
+import web3 from "../media/WEB3.png";
+
+import nft from "../media/NFT.png";
+import she from "../media/SHE.png";
+import nja from "../media/NJA.png";
+import blc from "../media/BLC.png";
+import sma from "../media/SMA.png";
+import dex from "../media/DEX.png";
 import Container from "react-bootstrap/esm/Container";
 import Button from "react-bootstrap/esm/Button";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Card from "react-bootstrap/esm/Card";
 
-const Projects = ({ darkMode }) => {
+const CryptoProjects = ({ darkMode }) => {
   const [show, setShow] = useState(false);
 
   return (
@@ -25,7 +25,7 @@ const Projects = ({ darkMode }) => {
         <Container>
           <br></br>
           <h2 className="lead" align="center">
-            <b>- Projects -</b>
+            <b>- Crypto Projects -</b>
           </h2>
           <br></br>
           <Zoom>
@@ -41,28 +41,29 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={tcd} />
+                          <Card.Img variant="top" src={botb} />
                           <Card.Body>
                             <Card.Title align="center">
-                              React Weather Application
+                              eCommerce Website
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                Find the current weather and 7 days forecast of
-                                any city on earth with this simple little web
-                                app.
+                                Led the development of eCommerce Website and
+                                oversaw its deployment and integration with
+                                BotB' subsidiary domains.
                               </p>
                             </Card.Text>
                           </Card.Body>
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Simple React web application written with jsx that
-                            returns the current weather. <br />
-                            The app utilizes: <br />
-                            OpenWeatherMap's API, OpenWeatherMap's icons for
-                            weather icons, create-react-app tool, Axios for easy
-                            http requests, Material-ui for styling and design.
+                            -Helped the company to migrate from PHP to
+                            MEAN-Stack. It resulted in increased code quality,
+                            excellent design and increased development speed.
+                            <br />
+                            -Helped to test and integrate best programming
+                            practices like TDD, continuous integration, and code
+                            review
                             <br />
                           </p>
                         </div>
@@ -72,7 +73,7 @@ const Projects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://monitor-weather.netlify.app/"
+                      href="https://Botb.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -81,18 +82,6 @@ const Projects = ({ darkMode }) => {
                         className="sbtn"
                       >
                         View Project
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/KodaKDominus/weather_react_app"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Github Repo
                       </Button>
                     </a>
                   </div>
@@ -110,28 +99,26 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={com} />
+                          <Card.Img variant="top" src={blc} />
                           <Card.Body>
                             <Card.Title align="center">
-                              Computer Auction Website
+                              Blockchain Platform
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                A CRUD website for auctioning computers.
+                                Built from scratch marketplace in Next.js in
+                                four months.
                               </p>
                             </Card.Text>
                           </Card.Body>
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Computer Auction CRUD application built with Flask
-                            that allows users to bid, review, login/register,
-                            post new listings, manage listings, search by
-                            keyword, and keep a watch list. The website is
-                            responsive and uses Bootstrap. Internal server
-                            errors and page not found errors are also handled
-                            appropriately. The project was developed with a team
-                            using Git.
+                            -Design and build patterns of chains and mainly
+                            developed cross-chain by Web3.js & Rust.
+                            <br />
+                            -Developed an analytics engine for the marketing
+                            team to help them understand themarketing ROI.
                           </p>
                         </div>
                       </div>
@@ -140,7 +127,7 @@ const Projects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://iab207-assessment-3.herokuapp.com/"
+                      href="https://trustpad.io/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -149,18 +136,6 @@ const Projects = ({ darkMode }) => {
                         className="sbtn"
                       >
                         View Project
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/KodaKDominus/com_auction_project"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Github Repo
                       </Button>
                     </a>
                   </div>
@@ -178,26 +153,24 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={ca} />
+                          <Card.Img variant="top" src={she} />
                           <Card.Body>
-                            <Card.Title align="center">CharitAble</Card.Title>
+                            <Card.Title align="center">
+                              NFT Minting Site
+                            </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                A Fundraising Web App where people can start a
-                                fundraiser for free
+                                My own NTF Minting site built by smart contract.
                               </p>
                             </Card.Text>
                           </Card.Body>
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Developed a Fundraising Web App where people can
-                            start a fundraiser for free and also contribute to
-                            other ongoing fundraisers.
-                            <br></br>This website can connect you to different
-                            Blood Banks as a Donor and Patient.
-                            <br></br>Tech Stack - ReachJs, Bootstrap, Cloud
-                            Firestore
+                            This is one of the mint sites I developed. I
+                            developed this site by myself. My role was web
+                            designer/builder, smart contract developer. It took
+                            me 6 weeks to complete this alone.
                           </p>
                         </div>
                       </div>
@@ -206,7 +179,7 @@ const Projects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://charit-able.netlify.app/"
+                      href="https://www.coolsheepnft.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -215,219 +188,6 @@ const Projects = ({ darkMode }) => {
                         className="sbtn"
                       >
                         View Project
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/Tejaswi-Chaudhari/CharitAble"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Github Repo
-                      </Button>
-                    </a>
-                  </div>
-                  <br></br>
-                </Card>
-              </Col>
-            </Row>
-          </Zoom>
-          <br></br>
-          <Zoom>
-            <Row>
-              <Col lg={4} sm={12}>
-                <Card
-                  align="center"
-                  className="exp"
-                  data-theme={darkMode ? "dark" : "light"}
-                >
-                  <br></br>
-                  <center>
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={efe} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Euphorus Frontend
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                Country Happiness Application Front End
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                          <p>
-                            React application that displays country happiness
-                            data. Uses a REST API I created that holds country
-                            data collected from the World Happiness Report
-                            initiative. Users can register, login and view
-                            happiness data by country. Users can filter the data
-                            by year, country and search limit. AG Grid and
-                            Chart.js were used to present the data.
-                            <br></br>Tech Stack - HTML, CSS, JavaScript
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </center>
-                  <br></br>
-                  <div>
-                    <a
-                      href="https://trusting-babbage-96d918.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Project
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/KodaKDominus/euphorus_front"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Github Repo
-                      </Button>
-                    </a>
-                  </div>
-                  <br></br>
-                </Card>
-              </Col>
-              <Col lg={4} sm={12}>
-                <Card
-                  align="center"
-                  className="exp"
-                  data-theme={darkMode ? "dark" : "light"}
-                >
-                  <br></br>
-                  <center>
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={ebe} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Euphorus Backend
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                Country Happiness API Back End
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                          <p>
-                            This project was the backend for assignment 1 in
-                            CAB230 which required us to build endpoints to
-                            satisfy a predefined Swagger document. It is an API
-                            that serves country happiness data.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </center>
-                  <br></br>
-                  <div>
-                    <a
-                      href="https://salty-refuge-23420.herokuapp.com/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Website
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/KodaKDominus/euphorus_back"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View GitHub Repo
-                      </Button>
-                    </a>
-                  </div>
-                  <br></br>
-                </Card>
-              </Col>
-              <Col lg={4} sm={12}>
-                <Card
-                  align="center"
-                  className="exp"
-                  data-theme={darkMode ? "dark" : "light"}
-                >
-                  <br></br>
-                  <center>
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={dlop} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Solve problem with dlops
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">Dlops AI landing page</p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                          <p>
-                            We are a network of designers, software engineers,
-                            data scientists and marketers whose passion for
-                            digital technologies binds us together to form this
-                            network of talents with abundant and diverse
-                            capabilities to tackle the most complex
-                            applications.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </center>
-                  <br></br>
-                  <div>
-                    <a
-                      href="https://dlopsai.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Project
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/KodaKDominus/dlop_ai_landing"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button
-                        variant={darkMode ? "outline-light" : "outline-dark"}
-                        className="sbtn"
-                      >
-                        View Github Repo
                       </Button>
                     </a>
                   </div>
@@ -450,28 +210,27 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={fla} />
+                          <Card.Img variant="top" src={web3} />
                           <Card.Body>
                             <Card.Title align="center">
-                              Apartments Site.
+                              Web3 Crypto App
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                This project advertise apartments by using
-                                Google Ads API service
+                                This project demonstrates a basic Hardhat use
+                                case.
                               </p>
                             </Card.Text>
                           </Card.Body>
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            It uses Google Ads API service. Clients just
-                            register on the flair and add apartments as
-                            properties to advertise their apartments. To
-                            advertise registered property it should be enabled
-                            and each enabled property is called project. One
-                            project have several campaigns. Campaign is the way
-                            how to advertise property.
+                            It comes with a sample contract, a test for that
+                            contract, a sample script that deploys that
+                            contract, and an example of a task implementation,
+                            which simply lists the available accounts.
+                            <br></br>Tech Stack - React, Solidity, Blockchain,
+                            Ethers, Hardhat
                           </p>
                         </div>
                       </div>
@@ -480,7 +239,75 @@ const Projects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://www.getflair.io/"
+                      href="https://web3cryptoapp.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button
+                        variant={darkMode ? "outline-light" : "outline-dark"}
+                        className="sbtn"
+                      >
+                        View Project
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/KodaKDominus/web3_crypto"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button
+                        variant={darkMode ? "outline-light" : "outline-dark"}
+                        className="sbtn"
+                      >
+                        View Github Repo
+                      </Button>
+                    </a>
+                  </div>
+                  <br></br>
+                </Card>
+              </Col>
+              <Col lg={4} sm={12}>
+                <Card
+                  align="center"
+                  className="exp"
+                  data-theme={darkMode ? "dark" : "light"}
+                >
+                  <br></br>
+                  <center>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div className="flip-card-front">
+                          <Card.Img variant="top" src={nft} />
+                          <Card.Body>
+                            <Card.Title align="center">NFT cars</Card.Title>
+                            <Card.Text>
+                              <p align="center">
+                                NFT marketplace by Solidity, Web3.js and
+                                Next.js.
+                              </p>
+                            </Card.Text>
+                          </Card.Body>
+                        </div>
+                        <div className="flip-card-back">
+                          <p>
+                            - Worked on various types of websites using
+                            React.js, Angular.js, Vue.js, Node.js, Express.js,
+                            Typescript, Next.js and MongoDB.
+                            <br />- Carefully reviewed 20+ customer satisfaction
+                            reports on a daily basis to resolve and acknowledge
+                            areas of opportunity among sales staff.
+                            <br /> - Debugged problems with slow loading and
+                            greatly increased the e¨ciency of the client's
+                            requests.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </center>
+                  <br></br>
+                  <div>
+                    <a
+                      href="https://nftcars.me/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -507,28 +334,34 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={job} />
+                          <Card.Img variant="top" src={nja} />
                           <Card.Body>
                             <Card.Title align="center">
-                              Apartments Site.
+                              Ninja Champions
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                This project advertise apartments by using
-                                Google Ads API service
+                                Ninja Champions are ready for NFT and metaverse.
+                                All Ninjas have unique traits and leveled
+                                ranking.
                               </p>
                             </Card.Text>
                           </Card.Body>
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            It uses Google Ads API service. Clients just
-                            register on the flair and add apartments as
-                            properties to advertise their apartments. To
-                            advertise registered property it should be enabled
-                            and each enabled property is called project. One
-                            project have several campaigns. Campaign is the way
-                            how to advertise property.
+                            -Worked as a blockchain developer.
+                            <br />
+                            -Supported front-end part.
+                            <br />
+                            -Implemented generating 10K images randomly with
+                            given some artassets using blender and python.
+                            <br />
+                            -Integrated with OpenSea using IPFS, All the
+                            metadata wasuploaded to IPFS.
+                            <br />
+                            -Added presale, public sale and reveal functions to
+                            smart contractswritten using solidity
                           </p>
                         </div>
                       </div>
@@ -537,7 +370,64 @@ const Projects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://www.getflair.io/"
+                      href="https://https://ninjachampions.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button
+                        variant={darkMode ? "outline-light" : "outline-dark"}
+                        className="sbtn"
+                      >
+                        View Project
+                      </Button>
+                    </a>
+                  </div>
+                  <br></br>
+                </Card>
+              </Col>
+            </Row>
+          </Zoom>
+          <br />
+          <Zoom>
+            <Row>
+              <Col lg={4} sm={12}>
+                <Card
+                  align="center"
+                  className="exp"
+                  data-theme={darkMode ? "dark" : "light"}
+                >
+                  <br></br>
+                  <center>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div className="flip-card-front">
+                          <Card.Img variant="top" src={sma} />
+                          <Card.Body>
+                            <Card.Title align="center">Smaugs</Card.Title>
+                            <Card.Text>
+                              <p align="center">
+                                Digital marketplace for crypto collectibles and
+                                non-fungible tokens. Buy, sell, and discover
+                                exclusive digital assets.
+                              </p>
+                            </Card.Text>
+                          </Card.Body>
+                        </div>
+                        <div className="flip-card-back">
+                          <p>
+                            Create your unique NFT very easy Create your own NFT
+                            token in a minute. Smaugs Marketplace is a complete
+                            custom DeFi, governance, and NFT ecosystem +
+                            marketplace.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </center>
+                  <br></br>
+                  <div>
+                    <a
+                      href="https://nft.smaugs.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -563,32 +453,24 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={adwe} />
+                          <Card.Img variant="top" src={dex} />
                           <Card.Body>
                             <Card.Title align="center">
-                              Advertisement Website
+                              CropperFinance
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                I had a project in progress and the client
-                                wanted to ¦nish it in urgent.
+                                Invest in early stage projects, trade, earn, and
+                                win crypto.
                               </p>
                             </Card.Text>
                           </Card.Body>
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            - Worked as a part of an Agile team in the
-                            development of an enterprise service bus for
-                            Amsterdam Airport.
-                            <br />
-                            - Designed and developed multiple OSGI modules for
-                            integration with external and internal systems.
-                            <br />
-                            - Redesigned and refactored a system making it more
-                            maintainable and highly testable.
-                            <br />- Introduced guidelines for unit testing on a
-                            project.
+                            Decentralized Ecosystem that Empowers Projects &
+                            Maximizes Yield to move Defi forward on Solana.
+                            Swap, Yield Farming, Staking, IDO Launchpad & more.
                           </p>
                         </div>
                       </div>
@@ -597,7 +479,7 @@ const Projects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://alphacoders.com/"
+                      href="https://cropper.finance/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -623,4 +505,4 @@ const Projects = ({ darkMode }) => {
   );
 };
 
-export default Projects;
+export default CryptoProjects;

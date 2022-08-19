@@ -10,6 +10,7 @@ import {
   Contact,
   Footer,
   Loader,
+  CryptoProjects,
   Projects,
 } from "./components";
 
@@ -86,6 +87,11 @@ function App() {
               <div id="skills">
                 <Skills darkMode={darkMode} />
               </div>
+
+              <div id="cryptoprojects">
+                <CryptoProjects darkMode={darkMode} />
+              </div>
+
               <div id="projects">
                 <Projects darkMode={darkMode} />
               </div>
