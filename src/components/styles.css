@@ -1,6 +1,7 @@
 :root {
   --bg-color: #e98074;
-  --text-color: #ffffff;
+  --text-color: #000000;
+  --navtext-color: #ffffff;
   --page-color: #ffffff;
   --hello: #8e8d8a;
   --description: #e85a4f;
@@ -11,6 +12,7 @@
 [data-theme="dark"] {
   --bg-color: #1a1a1d;
   --text-color: #ffffff;
+  --navtext-color: #ffffff;
   --page-color: #1a1a1f;
   --description: #eae7dc;
   --hello: #ffffff;
@@ -32,11 +34,11 @@
 .navbar .navname {
   font-size: x-large;
   margin-left: 20px;
-  color: var(--text-color);
+  color: var(--navtext-color-color);
   font-weight: 500;
 }
 .navbar .navname:visited {
-  color: var(--text-color);
+  color: var(--navtext-color);
 }
 .navbar .navname:hover {
   color: var(--name);
@@ -45,10 +47,10 @@
 .navbar .mr-auto .link {
   margin-left: 20px;
   font-size: large;
-  color: var(--text-color);
+  color: var(--navtext-color);
 }
 .navbar .mr-auto .link:visited {
-  color: var(--text-color);
+  color: var(--navtext-color);
 }
 .navbar .mr-auto .link:hover {
   color: var(--name);
@@ -61,7 +63,7 @@
 
 .navbar {
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--navtext-color);
   padding: 15px;
 }
 .text {
@@ -80,13 +82,6 @@
   font-size: xx-large;
   font-weight: 300;
 }
-
-.lead-sub {
-  color: var(--description);
-  font-size: xx-medium;
-  font-weight: 100;
-}
-
 code {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--name);
