@@ -159,7 +159,7 @@ const About = ({ darkMode }) => {
                     <Col lg={1} xs={8}></Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="https://github.com/KodaKDominus"
+                        href="https://github.com/masculus"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -177,7 +177,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="https://t.me/KDomnius"
+                        href="https://t.me/masculus1114"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -195,7 +195,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="kodakatsuro@gmail.com"
+                        href="magnus.masculus971114@gmail.com"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -217,7 +217,7 @@ const About = ({ darkMode }) => {
                     <Col lg={1} xs={8}></Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="kodakatsuro@gmail.com"
+                        href="magnus.masculus971114@gmail.com"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -235,7 +235,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="https://join.skype.com/invite/wDpwy4t21eVg"
+                        href="https://join.skype.com/invite/ua262wXAd9xg"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -253,7 +253,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="https://www.linkedin.com/in/KodaKDominus/"
+                        href="https://www.linkedin.com/in/masculus/"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
