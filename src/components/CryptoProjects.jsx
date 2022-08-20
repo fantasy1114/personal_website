@@ -370,7 +370,7 @@ const CryptoProjects = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://https://ninjachampions.com/"
+                      href="https://ninjachampions.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
