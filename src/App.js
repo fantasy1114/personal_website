@@ -59,6 +59,9 @@ function App() {
                     <Nav.Link href="#projects" className="link">
                       Projects
                     </Nav.Link>
+                    <Nav.Link href="#cryptoprojects" className="link">
+                      Crypto Projects
+                    </Nav.Link>
                     <Nav.Link href="#contact" className="link">
                       Contact
                     </Nav.Link>
