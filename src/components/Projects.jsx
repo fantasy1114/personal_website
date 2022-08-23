@@ -514,8 +514,7 @@ const Projects = ({ darkMode }) => {
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
-                                This project advertise apartments by using
-                                Google Ads API service
+                                This project is platform which advertise jobs.
                               </p>
                             </Card.Text>
                           </Card.Body>
