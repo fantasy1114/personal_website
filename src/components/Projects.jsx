@@ -465,13 +465,16 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            It uses Google Ads API service. Clients just
-                            register on the flair and add apartments as
-                            properties to advertise their apartments. To
-                            advertise registered property it should be enabled
-                            and each enabled property is called project. One
-                            project have several campaigns. Campaign is the way
-                            how to advertise property.
+                            *Developed a job market platform in Node.js with MongoDBand React.js.
+                            <br/>
+                            *Created the "Payment Integration" using Chargebee.
+                            <br/>
+                            *Integrated Stripe API to make payments.
+                            <br/>
+                            *Developed admin dashboard to manage users, projects
+                            <br/>
+                            *Developed a messaging app using Socket.io
+                            <br/>
                           </p>
                         </div>
                       </div>
