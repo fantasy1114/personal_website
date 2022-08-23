@@ -510,7 +510,7 @@ const Projects = ({ darkMode }) => {
                           <Card.Img variant="top" src={job} />
                           <Card.Body>
                             <Card.Title align="center">
-                              Apartments Site.
+                              Job platform
                             </Card.Title>
                             <Card.Text>
                               <p align="center">
