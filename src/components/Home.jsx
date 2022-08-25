@@ -25,7 +25,7 @@ const Home = ({ darkMode }) => {
           </Col>
           <Col lg={9} xs={12}>
             <h1 className="display-3 hello" align="center">
-              HELLO!<code> I'm Masculus</code>
+              <code> Masculus</code>
             </h1>
             {/* <h2 className="lead" align="center">
               I
