@@ -12,6 +12,7 @@ import {
   faSkype,
   faTelegram,
   faGoogle,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
@@ -253,7 +254,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="https://www.linkedin.com/in/masculus/"
+                        href="masculus#1716"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -264,7 +265,7 @@ const About = ({ darkMode }) => {
                           <FontAwesomeIcon
                             className="skill"
                             size="2x"
-                            icon={faLinkedin}
+                            icon={faDiscord}
                           />
                         </Button>
                       </a>
