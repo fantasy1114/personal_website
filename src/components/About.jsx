@@ -84,6 +84,7 @@ const About = ({ darkMode }) => {
 
   return (
     <div>
+      <div id="padding" style={{ padding: "35px" }}></div>
       <br></br>
       <br></br>
       <Fade>
@@ -105,19 +106,14 @@ const About = ({ darkMode }) => {
                       and can work together for a long time. I have also working
                       experience with <strong>Model View Controller</strong>{" "}
                       (MVC) and have been involved in maintaining versions of
-                      source code using <strong>GIT</strong>. I have also
-                      designed and developed web user controls, pages,
-                      validation controls, CSS files using technologies like
-                      AJAX Toolkit, jQuery, JavaScript, Bootstrap UI controls,
-                      XML, HTML, and DHTML. Many things excite me in this
-                      expanse of technology. I am up for challenges that take me
-                      by surprise and make my head hurt. I'm comfortable working
-                      on any domain if I find the project is worth it. You can
-                      imagine me focused on the laptop screen and typing or
-                      taking down notes. Apart from technical things, I enjoy
-                      good books and verses, and I have a good eye for{" "}
-                      <strong>Art</strong>. Now that you know me a bit, please
-                      feel free to drop a text because{" "}
+                      source code using <strong>GIT</strong>. I am up for
+                      challenges that take me by surprise and make my head hurt.
+                      I'm comfortable working on any domain if I find the
+                      project is worth it. You can imagine me focused on the
+                      laptop screen and typing or taking down notes. Apart from
+                      technical things, I enjoy good books and verses, and I
+                      have a good eye for <strong>Art</strong>. Now that you
+                      know me a bit, please feel free to drop a text because{" "}
                       <strong>Communication is a two-way street.</strong>
                     </p>
                   </Card.Text>
@@ -125,6 +121,7 @@ const About = ({ darkMode }) => {
                     <Button
                       variant={darkMode ? "outline-light" : "outline-dark"}
                       className="a"
+                      style={{ marginRight: "10px" }}
                     >
                       <FontAwesomeIcon
                         className="dark"

@@ -20,6 +20,7 @@ const CryptoProjects = ({ darkMode }) => {
 
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
+      <div id="padding" style={{ padding: "35px" }}></div>
       <br></br>
       <Fade>
         <Container>
@@ -41,7 +42,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={botb} />
+                          <Card.Img
+                            variant="top"
+                            src={botb}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               eCommerce Website
@@ -57,11 +62,12 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            -Helped the company to migrate from PHP to
+                            🖋️Helped the company to migrate from PHP to
                             MEAN-Stack. It resulted in increased code quality,
                             excellent design and increased development speed.
                             <br />
-                            -Helped to test and integrate best programming
+                            <br />
+                            🖋️Helped to test and integrate best programming
                             practices like TDD, continuous integration, and code
                             review
                             <br />
@@ -99,7 +105,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={blc} />
+                          <Card.Img
+                            variant="top"
+                            src={blc}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Blockchain Platform
@@ -114,10 +124,11 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            -Design and build patterns of chains and mainly
+                            🖋️ Design and build patterns of chains and mainly
                             developed cross-chain by Web3.js & Rust.
                             <br />
-                            -Developed an analytics engine for the marketing
+                            <br />
+                            🖋️ Developed an analytics engine for the marketing
                             team to help them understand themarketing ROI.
                           </p>
                         </div>
@@ -153,7 +164,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={she} />
+                          <Card.Img
+                            variant="top"
+                            src={she}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               NFT Minting Site
@@ -167,7 +182,7 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            This is one of the mint sites I developed. I
+                            🖋️ This is one of the mint sites I developed. I
                             developed this site by myself. My role was web
                             designer/builder, smart contract developer. It took
                             me 6 weeks to complete this alone.
@@ -196,7 +211,8 @@ const CryptoProjects = ({ darkMode }) => {
               </Col>
             </Row>
           </Zoom>
-          <br />
+          <br></br>
+          <br></br>
           <Zoom>
             <Row>
               <Col lg={4} sm={12}>
@@ -210,7 +226,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={web3} />
+                          <Card.Img
+                            variant="top"
+                            src={web3}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Web3 Crypto App
@@ -225,12 +245,14 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            It comes with a sample contract, a test for that
+                            🖋️ It comes with a sample contract, a test for that
                             contract, a sample script that deploys that
                             contract, and an example of a task implementation,
                             which simply lists the available accounts.
-                            <br></br>Tech Stack - React, Solidity, Blockchain,
-                            Ethers, Hardhat
+                            <br />
+                            <br />
+                            Tech Stack - React, Solidity, Blockchain, Ethers,
+                            Hardhat
                           </p>
                         </div>
                       </div>
@@ -246,6 +268,7 @@ const CryptoProjects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
@@ -277,7 +300,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={nft} />
+                          <Card.Img
+                            variant="top"
+                            src={nft}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">NFT cars</Card.Title>
                             <Card.Text>
@@ -290,13 +317,14 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            - Worked on various types of websites using
+                            🖋️ Worked on various types of websites using
                             React.js, Angular.js, Vue.js, Node.js, Express.js,
                             Typescript, Next.js and MongoDB.
-                            <br />- Carefully reviewed 20+ customer satisfaction
+                            <br />
+                            🖋️ Carefully reviewed 20+ customer satisfaction
                             reports on a daily basis to resolve and acknowledge
                             areas of opportunity among sales staff.
-                            <br /> - Debugged problems with slow loading and
+                            <br /> 🖋️ Debugged problems with slow loading and
                             greatly increased the e¨ciency of the client's
                             requests.
                           </p>
@@ -334,7 +362,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={nja} />
+                          <Card.Img
+                            variant="top"
+                            src={nja}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Ninja Champions
@@ -350,18 +382,18 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            -Worked as a blockchain developer.
+                            🖋️ Worked as a blockchain developer.
                             <br />
-                            -Supported front-end part.
+                            🖋️ Supported front-end part.
                             <br />
-                            -Implemented generating 10K images randomly with
+                            🖋️ Implemented generating 10K images randomly with
                             given some artassets using blender and python.
                             <br />
-                            -Integrated with OpenSea using IPFS, All the
+                            🖋️ Integrated with OpenSea using IPFS, All the
                             metadata wasuploaded to IPFS.
                             <br />
-                            -Added presale, public sale and reveal functions to
-                            smart contractswritten using solidity
+                            🖋️ Added presale, public sale and reveal functions
+                            to smart contractswritten using solidity
                           </p>
                         </div>
                       </div>
@@ -387,7 +419,8 @@ const CryptoProjects = ({ darkMode }) => {
               </Col>
             </Row>
           </Zoom>
-          <br />
+          <br></br>
+          <br></br>
           <Zoom>
             <Row>
               <Col lg={4} sm={12}>
@@ -401,7 +434,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={sma} />
+                          <Card.Img
+                            variant="top"
+                            src={sma}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">Smaugs</Card.Title>
                             <Card.Text>
@@ -415,10 +452,10 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Create your unique NFT very easy Create your own NFT
-                            token in a minute. Smaugs Marketplace is a complete
-                            custom DeFi, governance, and NFT ecosystem +
-                            marketplace.
+                            🖋️ Create your unique NFT very easy Create your own
+                            NFT token in a minute. Smaugs Marketplace is a
+                            complete custom DeFi, governance, and NFT ecosystem
+                            + marketplace.
                           </p>
                         </div>
                       </div>
@@ -453,7 +490,11 @@ const CryptoProjects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={dex} />
+                          <Card.Img
+                            variant="top"
+                            src={dex}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               CropperFinance
@@ -468,7 +509,7 @@ const CryptoProjects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Decentralized Ecosystem that Empowers Projects &
+                            🖋️ Decentralized Ecosystem that Empowers Projects &
                             Maximizes Yield to move Defi forward on Solana.
                             Swap, Yield Farming, Staking, IDO Launchpad & more.
                           </p>

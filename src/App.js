@@ -6,9 +6,10 @@ import {
   Home,
   About,
   Skills,
-  Experience,
+  SkillsDetail,
   Contact,
   Footer,
+  Services,
   Loader,
   CryptoProjects,
   Projects,
@@ -40,6 +41,11 @@ function App() {
           <div className="App" data-theme={darkMode ? "dark" : "light"}>
             <Route path="/">
               <Navbar
+                style={{
+                  position: "fixed",
+                  zIndex: "10",
+                  width: "100%",
+                }}
                 expand="lg"
                 className="navbar"
                 data-theme={darkMode ? "dark" : "light"}
@@ -61,6 +67,9 @@ function App() {
                     </Nav.Link>
                     <Nav.Link href="#cryptoprojects" className="link">
                       Crypto Projects
+                    </Nav.Link>
+                    <Nav.Link href="#services" className="link">
+                      Services
                     </Nav.Link>
                     <Nav.Link href="#contact" className="link">
                       Contact
@@ -89,8 +98,11 @@ function App() {
               </div>
               <div id="skills">
                 <Skills darkMode={darkMode} />
+                <SkillsDetail darkMode={darkMode} />
               </div>
-
+              <div id="services">
+                <Services darkMode={darkMode} />
+              </div>
               <div id="cryptoprojects">
                 <CryptoProjects darkMode={darkMode} />
               </div>

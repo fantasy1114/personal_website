@@ -6,7 +6,10 @@
   --hello: #8e8d8a;
   --description: #e85a4f;
   --name: #e98074;
+  --navname: #c3073f;
   --border-width: 1px;
+  --skillback: #cccccc;
+  --skilltext: #666666;
 }
 
 [data-theme="dark"] {
@@ -17,7 +20,10 @@
   --description: #eae7dc;
   --hello: #ffffff;
   --name: #c3073f;
+  --navname: #c3073f;
   --border-width: 2px;
+  --skillback: white;
+  --skilltext: white;
 }
 
 .App {
@@ -35,25 +41,27 @@
   font-size: x-large;
   margin-left: 20px;
   color: var(--navtext-color-color);
+  font-family: "Lucida Calligraphy";
   font-weight: 500;
 }
 .navbar .navname:visited {
   color: var(--navtext-color);
 }
 .navbar .navname:hover {
-  color: var(--name);
+  color: var(--navname);
 }
 
 .navbar .mr-auto .link {
   margin-left: 20px;
   font-size: large;
   color: var(--navtext-color);
+  font-family: "Lucida Calligraphy";
 }
 .navbar .mr-auto .link:visited {
   color: var(--navtext-color);
 }
 .navbar .mr-auto .link:hover {
-  color: var(--name);
+  color: var(--navname);
 }
 
 .dark {
@@ -81,6 +89,7 @@
   color: var(--description);
   font-size: xx-large;
   font-weight: 300;
+  font-family: "Lucida Calligraphy";
 }
 code {
   font-family: Helvetica, Arial, sans-serif;
@@ -100,7 +109,7 @@ code {
   padding-right: 10px;
 }
 .about-h {
-  font-size: x-large;
+  font-size: x-medium;
 }
 .connect-img {
   padding-bottom: 9px;
@@ -111,6 +120,8 @@ strong,
 }
 .skill-h {
   margin-top: 15px;
+  font-size: 35px;
+  font-family: "Lucida Calligraphy";
 }
 .skills-img {
   margin-left: 15px;
@@ -148,9 +159,11 @@ strong,
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 .exp {
-  border-width: 1px;
+  border-width: 1.8px;
   border-color: var(--name);
+  border-radius: 5%;
   background-color: transparent;
+  width: auto;
 }
 
 .flip-card {
@@ -159,6 +172,8 @@ strong,
   height: 300px;
   perspective: 1000px;
   color: var(--text-color);
+  font-family: "Lucida Calligraphy";
+  font-size: 14px;
 }
 
 .flip-card-inner {
@@ -167,7 +182,10 @@ strong,
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
+.card-image-top {
+  border: 1px;
+  border-color: var(--name);
+}
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -181,6 +199,9 @@ strong,
 
 .flip-card-back {
   transform: rotateY(180deg);
+  text-align: left;
+  font-family: "Lucida Calligraphy";
+  margin: 20px;
 }
 
 .sbtn {
@@ -201,9 +222,70 @@ strong,
 }
 .contact-text {
   color: var(--text-color);
+  font-family: "Lucida Calligraphy";
 }
 .footer-text {
   text-align: center;
   color: var(--text-color);
   margin-top: 100px;
+  font-family: "Lucida Calligraphy";
+}
+
+.skills-detail .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills-detail .progress .skill-detail {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: var(--skilltext);
+}
+.skills-detail .progress .skill-detail .val {
+  float: right;
+  font-style: normal;
+}
+.skills-detail .progress-bar-wrap {
+  background: var(--skillback);
+}
+.skills-detail .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: var(--name);
+}
+
+.services .services-items {
+  overflow: hidden;
+}
+
+.services .services-items:first-child {
+  border-bottom: 1px solid #eee;
+}
+
+.services-items .bord {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+.services-items .item span {
+  font-size: 40px;
+  color: #c49b66;
+}
+
+.services-items .item h5 {
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-heading h4 {
+  font-weight: 100;
 }

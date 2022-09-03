@@ -23,13 +23,18 @@ import {
 const Skills = ({ darkMode }) => {
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
+      <div id="padding" style={{ padding: "35px" }}></div>
       <br></br>
       <Slide>
         <Container>
           <Row>
             <Col lg={4} xs={8}>
               <h1 className="display-3 skill-h">
-                I can work <p className="with">with</p>{" "}
+                <br />
+                <nobr>
+                  I can work
+                  <span className="with"> with</span>{" "}
+                </nobr>
               </h1>
               <img
                 src={darkMode ? skillsDark : skillsLight}

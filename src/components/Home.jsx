@@ -10,6 +10,7 @@ import Container from "react-bootstrap/esm/Container";
 const Home = ({ darkMode }) => {
   return (
     <div>
+      <div id="padding" style={{ padding: "40px" }}></div>
       <AttentionSeeker shakeX>
         <Row>
           <Col lg={2} xs={12}></Col>

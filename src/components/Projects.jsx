@@ -20,6 +20,7 @@ const Projects = ({ darkMode }) => {
 
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
+      <div id="padding" style={{ padding: "35px" }}></div>
       <br></br>
       <Fade>
         <Container>
@@ -30,7 +31,7 @@ const Projects = ({ darkMode }) => {
           <br></br>
           <Zoom>
             <Row>
-              <Col lg={4} sm={12}>
+              <Col lg={4} sm={10}>
                 <Card
                   align="center"
                   className="exp"
@@ -41,7 +42,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={tcd} />
+                          <Card.Img
+                            variant="top"
+                            src={tcd}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               React Weather Application
@@ -57,8 +62,9 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Simple React web application written with jsx that
-                            returns the current weather. <br />
+                            🖋️ Simple React web application written with jsx
+                            that returns the current weather. <br />
+                            <br />
                             The app utilizes: <br />
                             OpenWeatherMap's API, OpenWeatherMap's icons for
                             weather icons, create-react-app tool, Axios for easy
@@ -79,6 +85,7 @@ const Projects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
@@ -110,7 +117,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={com} />
+                          <Card.Img
+                            variant="top"
+                            src={com}
+                            style={{ width: "270px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Computer Auction Website
@@ -124,14 +135,16 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Computer Auction CRUD application built with Flask
-                            that allows users to bid, review, login/register,
-                            post new listings, manage listings, search by
-                            keyword, and keep a watch list. The website is
-                            responsive and uses Bootstrap. Internal server
-                            errors and page not found errors are also handled
-                            appropriately. The project was developed with a team
-                            using Git.
+                            🖋️ Computer Auction CRUD application built with
+                            Flask that allows users to bid, review,
+                            login/register, post new listings, manage listings,
+                            search by keyword, and keep a watch list.
+                            <br />
+                            The website is responsive and uses Bootstrap.
+                            <br />
+                            Internal server errors and page not found errors are
+                            also handled appropriately. <br />
+                            The project was developed with a team using Git.
                           </p>
                         </div>
                       </div>
@@ -147,6 +160,7 @@ const Projects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
@@ -178,7 +192,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={ca} />
+                          <Card.Img
+                            variant="top"
+                            src={ca}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">CharitAble</Card.Title>
                             <Card.Text>
@@ -191,11 +209,12 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            Developed a Fundraising Web App where people can
+                            🖋️Developed a Fundraising Web App where people can
                             start a fundraiser for free and also contribute to
                             other ongoing fundraisers.
                             <br></br>This website can connect you to different
                             Blood Banks as a Donor and Patient.
+                            <br />
                             <br></br>Tech Stack - ReachJs, Bootstrap, Cloud
                             Firestore
                           </p>
@@ -213,6 +232,7 @@ const Projects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
@@ -236,6 +256,7 @@ const Projects = ({ darkMode }) => {
             </Row>
           </Zoom>
           <br></br>
+          <br></br>
           <Zoom>
             <Row>
               <Col lg={4} sm={12}>
@@ -249,7 +270,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={efe} />
+                          <Card.Img
+                            variant="top"
+                            src={efe}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Euphorus Frontend
@@ -263,13 +288,15 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            React application that displays country happiness
+                            🖋️ React application that displays country happiness
                             data. Uses a REST API I created that holds country
                             data collected from the World Happiness Report
                             initiative. Users can register, login and view
-                            happiness data by country. Users can filter the data
-                            by year, country and search limit. AG Grid and
-                            Chart.js were used to present the data.
+                            happiness data by country. <br />
+                            Users can filter the data by year, country and
+                            search limit. <br />
+                            AG Grid and Chart.js were used to present the data.
+                            <br />
                             <br></br>Tech Stack - HTML, CSS, JavaScript
                           </p>
                         </div>
@@ -286,6 +313,7 @@ const Projects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
@@ -317,7 +345,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={ebe} />
+                          <Card.Img
+                            variant="top"
+                            src={ebe}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Euphorus Backend
@@ -331,10 +363,10 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            This project was the backend for assignment 1 in
+                            🖋️ This project was the backend for assignment 1 in
                             CAB230 which required us to build endpoints to
-                            satisfy a predefined Swagger document. It is an API
-                            that serves country happiness data.
+                            satisfy a predefined Swagger document. <br />
+                            It is an API that serves country happiness data.
                           </p>
                         </div>
                       </div>
@@ -350,6 +382,7 @@ const Projects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Website
                       </Button>
@@ -381,7 +414,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={dlop} />
+                          <Card.Img
+                            variant="top"
+                            src={dlop}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Solve problem with dlops
@@ -393,11 +430,11 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            We are a network of designers, software engineers,
-                            data scientists and marketers whose passion for
-                            digital technologies binds us together to form this
-                            network of talents with abundant and diverse
-                            capabilities to tackle the most complex
+                            🖋️ We are a network of designers, software
+                            engineers, data scientists and marketers whose
+                            passion for digital technologies binds us together
+                            to form this network of talents with abundant and
+                            diverse capabilities to tackle the most complex
                             applications.
                           </p>
                         </div>
@@ -414,6 +451,7 @@ const Projects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
@@ -436,7 +474,8 @@ const Projects = ({ darkMode }) => {
               </Col>
             </Row>
           </Zoom>
-          <br />
+          <br></br>
+          <br></br>
           <Zoom>
             <Row>
               <Col lg={4} sm={12}>
@@ -450,7 +489,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={fla} />
+                          <Card.Img
+                            variant="top"
+                            src={fla}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Apartments Site.
@@ -465,13 +508,15 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            It uses Google Ads API service. Clients just
-                            register on the flair and add apartments as
-                            properties to advertise their apartments. To
-                            advertise registered property it should be enabled
-                            and each enabled property is called project. One
-                            project have several campaigns. Campaign is the way
-                            how to advertise property.
+                            🖋️ It uses Google Ads API service. <br />
+                            Clients just register on the flair and add
+                            apartments as properties to advertise their
+                            apartments. <br />
+                            To advertise registered property it should be
+                            enabled and each enabled property is called project.
+                            <br />
+                            One project have several campaigns. <br />
+                            Campaign is the way how to advertise property.
                           </p>
                         </div>
                       </div>
@@ -507,11 +552,13 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={job} />
+                          <Card.Img
+                            variant="top"
+                            src={job}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
-                            <Card.Title align="center">
-                              Job platform
-                            </Card.Title>
+                            <Card.Title align="center">Job platform</Card.Title>
                             <Card.Text>
                               <p align="center">
                                 This project is platform which advertise jobs.
@@ -521,16 +568,18 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            *Developed a job market platform in Node.js with MongoDBand React.js.
-                            <br/>
-                            *Created the "Payment Integration" using Chargebee.
-                            <br/>
-                            *Integrated Stripe API to make payments.
-                            <br/>
-                            *Developed admin dashboard to manage users, projects
-                            <br/>
-                            *Developed a messaging app using Socket.io
-                            <br/>
+                            🖋️Developed a job market platform in Node.js with
+                            MongoDBand React.js.
+                            <br />
+                            🖋️Created the "Payment Integration" using Chargebee.
+                            <br />
+                            🖋️Integrated Stripe API to make payments.
+                            <br />
+                            🖋️Developed admin dashboard to manage users,
+                            projects
+                            <br />
+                            🖋️Developed a messaging app using Socket.io
+                            <br />
                           </p>
                         </div>
                       </div>
@@ -565,7 +614,11 @@ const Projects = ({ darkMode }) => {
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={adwe} />
+                          <Card.Img
+                            variant="top"
+                            src={adwe}
+                            style={{ width: "270px", marginBottom: "20px" }}
+                          />
                           <Card.Body>
                             <Card.Title align="center">
                               Advertisement Website
@@ -580,14 +633,14 @@ const Projects = ({ darkMode }) => {
                         </div>
                         <div className="flip-card-back">
                           <p>
-                            - Worked as a part of an Agile team in the
+                            🖋️ Worked as a part of an Agile team in the
                             development of an enterprise service bus for
                             Amsterdam Airport.
                             <br />
-                            - Designed and developed multiple OSGI modules for
+                            🖋️ Designed and developed multiple OSGI modules for
                             integration with external and internal systems.
                             <br />
-                            - Redesigned and refactored a system making it more
+                            🖋️ Redesigned and refactored a system making it more
                             maintainable and highly testable.
                             <br />- Introduced guidelines for unit testing on a
                             project.
