@@ -6,6 +6,7 @@ const SkillsDetail = ({ darkMode }) => {
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
       <div id="padding" style={{ padding: "35px" }}></div>
+      <br />
       <Fade>
         <Container>
           <br></br>
