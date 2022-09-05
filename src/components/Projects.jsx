@@ -1,5 +1,5 @@
 import { useState, React } from "react";
-import { Zoom, Fade } from "react-awesome-reveal";
+import { Zoom, Fade, Slide } from "react-awesome-reveal";
 import fla from "../media/FLA.png";
 import efe from "../media/EFE.png";
 import ebe from "../media/EBE.png";
@@ -257,7 +257,7 @@ const Projects = ({ darkMode }) => {
           </Zoom>
           <br></br>
           <br></br>
-          <Zoom>
+          <Slide>
             <Row>
               <Col lg={4} sm={12}>
                 <Card
@@ -473,7 +473,7 @@ const Projects = ({ darkMode }) => {
                 </Card>
               </Col>
             </Row>
-          </Zoom>
+          </Slide>
           <br></br>
           <br></br>
           <Zoom>
