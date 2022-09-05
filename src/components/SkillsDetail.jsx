@@ -1,12 +1,12 @@
 import { useState, React } from "react";
-import { Zoom, Fade } from "react-awesome-reveal";
+import { Zoom, Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/esm/Container";
 
 const SkillsDetail = ({ darkMode }) => {
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
       <br></br>
-      <Fade>
+      <Slide>
         <Container>
           <br></br>
           <h2 className="lead" align="center">
@@ -517,7 +517,7 @@ const SkillsDetail = ({ darkMode }) => {
             </div>
           </Zoom>
         </Container>
-      </Fade>
+      </Slide>
       <br></br>
       <hr></hr>
       <br></br>
