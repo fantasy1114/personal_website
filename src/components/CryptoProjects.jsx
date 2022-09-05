@@ -1,5 +1,5 @@
 import { useState, React } from "react";
-import { Zoom, Fade } from "react-awesome-reveal";
+import { Zoom, Fade, Slide } from "react-awesome-reveal";
 import botb from "../media/BOTB.png";
 import web3 from "../media/WEB3.png";
 
@@ -213,7 +213,7 @@ const CryptoProjects = ({ darkMode }) => {
           </Zoom>
           <br></br>
           <br></br>
-          <Zoom>
+          <Slide>
             <Row>
               <Col lg={4} sm={12}>
                 <Card
@@ -418,7 +418,7 @@ const CryptoProjects = ({ darkMode }) => {
                 </Card>
               </Col>
             </Row>
-          </Zoom>
+          </Slide>
           <br></br>
           <br></br>
           <Zoom>
