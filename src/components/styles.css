@@ -264,6 +264,7 @@ strong,
 
 .services .services-items {
   overflow: hidden;
+  color: var(--text-color);
 }
 
 .services .services-items:first-child {
@@ -273,11 +274,12 @@ strong,
 .services-items .bord {
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
+  color: var(--text-color);
 }
 
 .services-items .item span {
   font-size: 40px;
-   color: var(--text-color);
+  color: #c49b66;
 }
 
 .services-items .item h5 {
