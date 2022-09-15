@@ -277,7 +277,7 @@ strong,
 
 .services-items .item span {
   font-size: 40px;
-  color: #c49b66;
+   color: var(--text-color);
 }
 
 .services-items .item h5 {
