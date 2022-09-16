@@ -107,7 +107,8 @@ const SkillsDetail = ({ darkMode }) => {
                       ></div>
                     </div>
                   </div>
-                  
+                </div>
+                <div className="col-lg-3">
                   <div className="progress">
                     <span className="skill-detail">
                       Vue & Nuxtjs <i className="val">90%</i>
@@ -123,9 +124,6 @@ const SkillsDetail = ({ darkMode }) => {
                       ></div>
                     </div>
                   </div>
-                </div>
-
-                <div className="col-lg-3">
                   <div className="progress">
                     <span className="skill-detail">
                       Nodejs & Expressjs <i className="val">100%</i>
