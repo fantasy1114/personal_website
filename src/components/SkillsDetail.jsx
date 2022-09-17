@@ -43,7 +43,7 @@ const SkillsDetail = ({ darkMode }) => {
                         aria-valuenow="90"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style={{ width: "100%" }}
+                        style={{ width: "90%" }}
                       ></div>
                     </div>
                   </div>
