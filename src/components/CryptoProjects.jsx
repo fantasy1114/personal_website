@@ -274,7 +274,7 @@ const CryptoProjects = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/KodaKDominus/web3_crypto"
+                      href="https://github.com/masculus/web3_crypto"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
