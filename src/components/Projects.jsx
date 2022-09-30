@@ -91,7 +91,7 @@ const Projects = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/KodaKDominus/weather_react_app"
+                      href="https://github.com/masculus/weather_react_app"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -166,7 +166,7 @@ const Projects = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/KodaKDominus/com_auction_project"
+                      href="https://github.com/masculus/com_auction_project"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -319,7 +319,7 @@ const Projects = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/KodaKDominus/euphorus_front"
+                      href="https://github.com/masculus/euphorus_front"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -384,11 +384,11 @@ const Projects = ({ darkMode }) => {
                         className="sbtn"
                         style={{ marginRight: "10px" }}
                       >
-                        View Website
+                        View Project
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/KodaKDominus/euphorus_back"
+                      href="https://github.com/masculus/euphorus_back"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -457,7 +457,7 @@ const Projects = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/KodaKDominus/dlop_ai_landing"
+                      href="https://github.com/masculus/dlop_ai_landing"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
