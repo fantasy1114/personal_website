@@ -216,7 +216,7 @@ const About = ({ darkMode }) => {
                     <Col lg={1} xs={8}></Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="magnus.masculus971114@gmail.com"
+                        href="masculus1114@gmail.com"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
@@ -252,7 +252,7 @@ const About = ({ darkMode }) => {
                     </Col>
                     <Col lg={3} xs={8}>
                       <a
-                        href="masculus#1716"
+                        href="https://discord.gg/9skw8dr6wj"
                         target="_blank"
                         rel="noreferrer noopener"
                       >
