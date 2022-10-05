@@ -647,6 +647,7 @@ const CryptoProjects = ({ darkMode }) => {
                       <Button
                         variant={darkMode ? "outline-light" : "outline-dark"}
                         className="sbtn"
+                        style={{ marginRight: "10px" }}
                       >
                         View Project
                       </Button>
