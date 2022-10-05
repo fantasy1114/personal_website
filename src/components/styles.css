@@ -93,6 +93,13 @@
   font-weight: 300;
   font-family: "Lucida Calligraphy";
 }
+
+.lead-sub {
+  color: var(--description);
+  font-size: xx-small;
+  font-weight: 150;
+  font-family: "Lucida Calligraphy";
+}
 code {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--name);
