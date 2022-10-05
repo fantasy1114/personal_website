@@ -96,7 +96,7 @@
 
 .lead-sub {
   color: var(--description);
-  font-size: xx-large;
+  font-size: large;
   font-weight: 150;
   font-family: "Lucida Calligraphy";
 }
