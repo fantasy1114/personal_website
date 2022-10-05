@@ -2,7 +2,8 @@ import { useState, React } from "react";
 import { Zoom, Fade, Slide } from "react-awesome-reveal";
 import botb from "../media/BOTB.png";
 import web3 from "../media/WEB3.png";
-
+import foxi from "../media/FOXI.png";
+import meta from "../media/META.png";
 import nft from "../media/NFT.png";
 import she from "../media/SHE.png";
 import nja from "../media/NJA.png";
@@ -529,6 +530,137 @@ const CryptoProjects = ({ darkMode }) => {
                         className="sbtn"
                       >
                         View Project
+                      </Button>
+                    </a>
+                  </div>
+                  <br></br>
+                </Card>
+              </Col>
+              <Col lg={4} sm={12}>
+                <Card
+                  align="center"
+                  className="exp"
+                  data-theme={darkMode ? "dark" : "light"}
+                >
+                  <br></br>
+                  <center>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div className="flip-card-front">
+                          <Card.Img
+                            variant="top"
+                            src={meta}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
+                          <Card.Body>
+                            <Card.Title align="center">
+                              Metakongz Raffle
+                            </Card.Title>
+                            <Card.Text>
+                              <p align="center">
+                                Raffle project
+                              </p>
+                            </Card.Text>
+                          </Card.Body>
+                        </div>
+                        <div className="flip-card-back">
+                          <p>
+                            🖋️ This is the raffle project that winners can receive the raffle 
+                            NFT or winners can buy NFTs by half price by buying tickets. 
+                            You can buy tickets by using 🦴$BOOGA, 🍭$ZION, and $SOL.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </center>
+                  <br></br>
+                  <div>
+                    <a
+                      href="https://metakongz-raffle-auction.vercel.app/raffle"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button
+                        variant={darkMode ? "outline-light" : "outline-dark"}
+                        className="sbtn"
+                      >
+                        View Project
+                      </Button>
+                    </a>
+                  </div>
+                  <br></br>
+                </Card>
+              </Col>
+            </Row>
+          </Zoom>
+          <br></br>
+          <br></br>
+          <Zoom>
+            <Row>
+              <Col lg={4} sm={12}>
+                <Card
+                  align="center"
+                  className="exp"
+                  data-theme={darkMode ? "dark" : "light"}
+                >
+                  <br></br>
+                  <center>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div className="flip-card-front">
+                          <Card.Img
+                            variant="top"
+                            src={foxi}
+                            style={{ width: "270", marginBottom: "20px" }}
+                          />
+                          <Card.Body>
+                            <Card.Title align="center">Fox Finance</Card.Title>
+                            <Card.Text>
+                              <p align="center">
+                              Fox Finance is a deflationary reflection token
+                              </p>  
+                            </Card.Text>
+                          </Card.Body>
+                        </div>
+                        <div className="flip-card-back">
+                          <p>
+                            🖋️ Fox Finance is a deflationary reflection token on 
+                            the Binance Smart Chain that joins investors, innovative 
+                            decentralized products, and the wild world around us in 
+                            a common mission.
+                            <br />
+                            We’ll also be hosting a charity auction with the winning artwork, 
+                            allowing the FOX community to own a piece of history in the form of an NFT, 
+                            with proceeds going to a wildlife-oriented charity we plan to reveal it soon.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </center>
+                  <br></br>
+                  <div>
+                    <a
+                      href="https://foxfinance.io/Marketplace"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button
+                        variant={darkMode ? "outline-light" : "outline-dark"}
+                        className="sbtn"
+                      >
+                        View Project
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/masculus/foxfinance"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button
+                        variant={darkMode ? "outline-light" : "outline-dark"}
+                        className="sbtn"
+                      >
+                        View Github Repo
                       </Button>
                     </a>
                   </div>
